@@ -1,5 +1,5 @@
 const User = require("../models/User")
-const ErrorResponse = require("../utils/errorResponse")
+const ErrorResponse = require("../utils/ErrorResponse")
 const asyncHandler = require("../middleware/async")
 const mongoose = require("mongoose")
 
