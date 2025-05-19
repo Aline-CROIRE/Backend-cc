@@ -1,6 +1,6 @@
 const asyncHandler = require("../middleware/async")
 const Location = require("../models/Location")
-const ErrorResponse = require("../utils/errorResponse")
+const ErrorResponse = require("../utils/ErrorResponse")
 
 // @desc    Get all provinces
 // @route   GET /api/locations/provinces
